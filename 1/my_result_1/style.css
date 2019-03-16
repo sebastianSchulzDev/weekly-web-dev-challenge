@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* General Elements CSS */
+
+.container {
+  position: relative;
+  width: 1050px;
+  height: 1372px;
+  background: url("../my_result_1/img/1.png");
+  margin: 0 auto;
+}
+.logo_round {
+  top: 55px;
+  left: 350px;
+  position: absolute;
+  opacity: 0.4;
+}
+.logo {
+  position: absolute;
+  top: 75px;
+  left: 490px;
+  opacity: 0.3;
+}
+.logo_round_bottom {
+  bottom: 65px;
+  right: 397px;
+  position: absolute;
+  opacity: 0.4;
+  transform: scale(0.7);
+  opacity: 0.2;
+}
+.logo_bottom {
+  position: absolute;
+  bottom: 81px;
+  right: 97px;
+  opacity: 0.3;
+}
+
+.title {
+  position: absolute;
+  width: 50%;
+  font-size: 32px;
+  color: #ffffff;
+  font-family: "Titillium Web";
+  font-weight: 500;
+  text-shadow: 2px 2px black;
+}
+.shadow {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  border-radius: 5px;
+}
+.form {
+  background: rgba(244, 244, 244, 1);
+  margin: 21px 20px 18px 18px;
+  border-radius: 5px;
+}
+.input {
+  width: 90%;
+  padding: 12px 80px;
+  margin: 21px 20px 0px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
+  font-family: "Titillium Web", sans-serif;
+}
+.label {
+  position: absolute;
+  padding-right: 20px;
+  border-right: 0.5px solid #ccc;
+}
+.square {
+  position: absolute;
+  top: 363px;
+  left: 38px;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.green {
+  width: 12px;
+  height: 12px;
+  background: linear-gradient(0deg, #71b80d 0%, #9ad123 100%);
+  border-radius: 3px;
+  margin: 5px 5px;
+}
+
+.button {
+  position: absolute;
+  top: 395px;
+  left: 38px;
+  width: 345px;
+  height: 49px;
+  line-height: 45px;
+  text-align: center;
+  background: linear-gradient(0deg, #71b80d 0%, #9ad123 100%);
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid #afafaf;
+  font-size: 24px;
+  color: #ffffff;
+  font-family: "Titillium Web";
+  font-weight: 500;
+  box-shadow: 0.559px 0.829px 0px #51850e;
+}
+
+/*Register Form CSS*/
+
+.register-form-title {
+  top: 180px;
+  left: 172px;
+}
+.register {
+  width: 420px;
+  height: 488px;
+  top: 238px;
+  left: 67px;
+}
+.register-form {
+  height: 445px;
+  width: 384px;
+}
+
+input:nth-of-type(2) {
+  margin: 20px 20px;
+}
+input:nth-of-type(3) {
+  margin: 1px 20px;
+}
+input:nth-of-type(4) {
+  margin: 20px 20px;
+}
+input:nth-of-type(5) {
+  margin: 1px 20px;
+}
+
+label[for="username"] {
+  top: 51px;
+  left: 58px;
+}
+label[for="password"] {
+  top: 118px;
+  left: 58px;
+}
+label[for="confirm-password"] {
+  top: 185px;
+  left: 58px;
+}
+label[for="email"] {
+  top: 257px;
+  left: 58px;
+}
+label[for="location"] {
+  top: 318px;
+  left: 63px;
+  padding-right: 24px;
+}
+::placeholder {
+  color: #afafaf;
+  font-size: 16px;
+}
+
+span {
+  position: absolute;
+  top: 363px;
+  left: 80px;
+  letter-spacing: 0.3px;
+  font-family: "Titillium Web", sans-serif;
+  color: #afafaf;
+  width: 100%;
+  font-size: 17px;
+}
+
+/* Sign In Form CSS*/
+
+.signIn-form-title {
+  top: 180px;
+  left: 682px;
+}
+
+.signIn {
+  width: 420px;
+  height: 260px;
+  top: 238px;
+  left: 566px;
+}
+.signIn-form {
+  height: 219px;
+  width: 384px;
+}
+.signIn-button {
+  top: 175px;
+  left: 241px;
+  width: 141px;
+  height: 42px;
+  line-height: 39px;
+}
+.remember {
+  position: absolute;
+  top: 185px;
+}
+.signIn-square {
+  position: absolute;
+  top: 185px;
+  left: 38px;
+}
+
+/* Recover Form*/
+.recover-form-title {
+  top: 520px;
+  left: 682px;
+}
+.recover {
+  width: 421px;
+  height: 261px;
+  top: 580px;
+  left: 566px;
+}
+.recover-form {
+  height: 219px;
+  width: 384px;
+}
+label[for="recover-email"] {
+  top: 56px;
+  left: 58px;
+}
+label[for="recover-phone"] {
+  top: 118px;
+  left: 62px;
+  padding-right: 26px;
+}
+
+.send-button {
+  top: 175px;
+  width: 149px;
+  height: 42px;
+  font-size: 18px;
+}
+.done-button {
+  top: 175px;
+  left: 235px;
+  width: 149px;
+  height: 42px;
+  font-size: 18px;
+}
+
+/*Subscribe Form CSS */
+
+.subscribe-form-title {
+  top: 850px;
+  left: 672px;
+}
+
+.subscribe {
+  top: 905px;
+  left: 566px;
+  width: 418px;
+  height: 197px;
+}
+.subscribe-form {
+  width: 382px;
+  height: 157px;
+}
+label[for="subscribe-email"] {
+  top: 56px;
+  left: 58px;
+}
+.subscribe-button {
+  top: 110px;
+  left: 38px;
+  width: 149px;
+  height: 42px;
+  font-size: 18px;
+}
+
+.nothanks-button {
+  top: 110px;
+  left: 231px;
+  width: 149px;
+  height: 42px;
+  font-size: 18px;
+  background: linear-gradient(0deg, #ee3645 0%, #f55f71 100%);
+}
+
+/* Send Email CSS */
+
+.send-email-form-title {
+  top: 750px;
+  left: 192px;
+}
+.sendEmail {
+  top: 805px;
+  left: 67px;
+  width: 421px;
+  height: 552px;
+}
+.send-email-form {
+  width: 382px;
+  height: 510px;
+}
+label[for="send-email"] {
+  top: 120px;
+  left: 58px;
+}
+
+.send-square {
+  top: 425px;
+  left: 37px;
+}
+.send-email-button {
+  top: 459px;
+  width: 342px;
+  left: 37px;
+}
+span.message {
+  top: 185px;
+  left: 55px;
+  width: 80%;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+span.send {
+  top: 424px;
+}
+
+textarea {
+  width: 342px;
+  height: 231px;
+  resize: none;
+  margin-top: 5px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
